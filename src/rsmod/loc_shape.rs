@@ -3,11 +3,8 @@
 use std::cmp::PartialEq;
 use std::process;
 
-use wasm_bindgen::prelude::wasm_bindgen;
-
 #[repr(i8)]
 #[derive(PartialEq)]
-#[wasm_bindgen]
 pub enum LocShape {
     WALL_STRAIGHT = 0,
     WALL_DIAGONAL_CORNER = 1,

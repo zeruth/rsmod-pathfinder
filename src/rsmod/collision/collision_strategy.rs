@@ -1,11 +1,8 @@
 #![allow(non_camel_case_types)]
 
-use wasm_bindgen::prelude::wasm_bindgen;
-
 use crate::rsmod::collision_flag::CollisionFlag;
 
 #[repr(u8)]
-#[wasm_bindgen]
 pub enum CollisionType {
     NORMAL = 0,
     BLOCKED = 1,

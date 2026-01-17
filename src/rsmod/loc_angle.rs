@@ -2,11 +2,8 @@
 
 use std::process;
 
-use wasm_bindgen::prelude::wasm_bindgen;
-
 #[repr(u8)]
 #[derive(PartialEq)]
-#[wasm_bindgen]
 pub enum LocAngle {
     WEST = 0,
     NORTH = 1,

@@ -2,11 +2,8 @@
 
 use std::ops::BitAnd;
 
-use wasm_bindgen::prelude::wasm_bindgen;
-
 #[repr(u8)]
 #[derive(Debug)]
-#[wasm_bindgen]
 pub enum BlockAccessFlag {
     BLOCK_NORTH = 0x1,
     BLOCK_EAST = 0x2,

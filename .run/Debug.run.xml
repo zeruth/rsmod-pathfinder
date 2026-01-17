@@ -1,6 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Debug" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-    <option name="command" value="run --package rsmod-pathfinder --bin rsmod-pathfinder" />
+    <option name="buildProfileId" value="dev" />
+    <option name="command" value="build -p rsmod-pathfinder --lib --debug" />
     <option name="workingDirectory" value="file://$PROJECT_DIR$" />
     <envs />
     <option name="emulateTerminal" value="true" />
